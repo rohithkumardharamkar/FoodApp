@@ -1,0 +1,131 @@
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    background-color: orange;
+
+}
+.logo img {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    font-size: 20px;
+}
+.card
+{
+    border:2px solid black;
+    width: 300px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 136, 0);
+   
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+   
+}
+.card img
+{
+    width: 200px;
+    height: 150px;
+}
+.cardk img
+{
+    width: 200px;
+    height: 150px;
+}
+.card:hover
+
+{
+    background-color:orange;
+    width: 330px;
+    height: 43vh;
+    border-radius: 4px solid black;
+}
+.sort
+{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sc 
+{
+    width: 100px;
+    height: 30vh;
+    background-color: orange;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.cardk
+{
+    border:2px solid black;
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 136, 0);
+}
+#cs 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sc{
+    width: 300px;
+    height: 40vh;
+    background-color: rgb(231, 147, 50);
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+   
+
+}
+.scname
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardk
+{
+height: 55vh;
+margin: auto;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.cardk button
+{
+    width: 100px;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
