@@ -15,11 +15,13 @@ import appStore from '../utils/appStore';
 
 function App() {
   return (<div>
-    <Provider store={appStore}>
-      <Header />
+     <Header />
+            <Provider store={appStore}>
+     
       <Outlet />
-      <Footer />
+     
     </Provider>
+     <Footer />
   </div>);
 }
 
