@@ -14,13 +14,13 @@ import { Provider } from 'react-redux';
 import appStore from '../utils/appStore';
 
 function App() {
-  return (
+  return (<div>
     <Provider store={appStore}>
       <Header />
       <Outlet />
       <Footer />
     </Provider>
-  );
+  </div>);
 }
 
 const Grocery = lazy(() => import('./components/Grocery'));
